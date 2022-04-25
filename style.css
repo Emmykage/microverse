@@ -1,0 +1,53 @@
+body{
+    margin: 0;
+
+}
+#main-doc{
+    max-width:1400px;
+    margin: auto;
+
+}
+
+#navbar{
+   padding: 24px 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+}
+#navbar .logo{
+    flex: 1;
+    background-color: red;
+    padding: 12px;
+    
+}
+
+.nav-links{
+    flex: 2;
+    background-color: green;
+}
+nav .nav-links{
+   
+    border-color: aliceblue;
+    
+}
+nav .nav-links ul{
+    display: flex;
+    list-style: none;
+    background-color: brown;
+    justify-content: space-between;
+    
+}
+nav .nav-links ul li{
+
+    display: flex;
+   margin: 30px;
+    background-color: antiquewhite;
+}
+nav .nav-links ul li a{
+    padding: 8px 14px;
+}
+.logo h1{
+    font-size: 50px;
+    font-family: cursive, sans-serif;
+}
